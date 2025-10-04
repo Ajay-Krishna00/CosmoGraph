@@ -17,7 +17,6 @@ ReactDOM.createRoot(root).render(
       <Route path="/" element={<Home/>}/>
       <Route path="/paper" element={<Paper/>}/>
       <Route path="/results" element={<Results/>}/>
-      <Route path="/graph" element={<KnowledgeGraph/>}/>
     </Routes>
   </BrowserRouter>
 );

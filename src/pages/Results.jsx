@@ -7,8 +7,8 @@ const API_URL = "http://localhost:8000";
 
 function Results() {
   const [search, setSearch] = useState("");
-  const [showPublications, setShowPublications] = useState(false);
-  const [showSummary, setShowSummary] = useState(false);
+  const [showPublications, setShowPublications] = useState(true);
+  const [showSummary, setShowSummary] = useState(true);
 
   const navigate = useNavigate();
 
