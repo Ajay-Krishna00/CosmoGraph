@@ -1,9 +1,10 @@
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Search } from "lucide-react";
+
+import ForceGraph3D from "react-force-graph-3d";
 
 function Results() {
   const [search, setSearch] = useState("");
-
   const [showPublications, setShowPublications] = useState(false);
   const [showSummary, setShowSummary] = useState(false);
 
@@ -25,79 +26,111 @@ function Results() {
     setShowSummary(!showSummary);
   };
 
-  const headerHeight = 72; // approx height of header in px (you can adjust if needed)
   const panelBaseClasses =
-    `fixed bg-[#1b1033]/90 p-5 rounded-2xl shadow-lg border border-violet-700/40 z-30 flex flex-col overflow-y-auto transition-all duration-300`;
+    "fixed top-20 bottom-20 bg-[#1b1033]/90 p-5 rounded-2xl shadow-lg border border-violet-700/40 z-30 flex flex-col overflow-y-auto transition-all duration-300";
+
+  {/*Graph stuff*/}
+  const [graphData, setGraphData] = useState(null);
+
+  useEffect(() => {
+    fetch("../datasets/blocks.json")
+      .then((res) => res.json())
+      .then((data) => setGraphData(data))
+      .catch((err) => console.error("Failed to load graph data", err));
+  }, []);
+
+  const assignRandomColors = (data) => {
+    data.nodes.forEach(node => {
+      node.color = '#' + Math.floor(Math.random() * 16777215).toString(16);
+    });
+    return data;
+  };
+
+  const dummyData = {
+    nodes: [
+      { id: "node_0", name: "Node 0", val: 10 },
+      { id: "node_1", name: "Node 1", val: 8 },
+      { id: "node_2", name: "Node 2", val: 6 },
+      { id: "node_3", name: "Node 3", val: 9 },
+      { id: "node_4", name: "Node 4", val: 7 },
+      { id: "node_5", name: "Node 5", val: 5 },
+      { id: "node_6", name: "Node 6", val: 10 },
+      { id: "node_7", name: "Node 7", val: 4 },
+      { id: "node_8", name: "Node 8", val: 3 },
+      { id: "node_9", name: "Node 9", val: 2 }
+    ],
+    links: [
+      { source: "node_0", target: "node_1" },
+      { source: "node_0", target: "node_2" },
+      { source: "node_1", target: "node_3" },
+      { source: "node_1", target: "node_4" },
+      { source: "node_2", target: "node_5" },
+      { source: "node_3", target: "node_6" },
+      { source: "node_4", target: "node_7" },
+      { source: "node_5", target: "node_8" },
+      { source: "node_6", target: "node_9" },
+      { source: "node_7", target: "node_8" }
+    ]
+  };
+
+  const coloredData = assignRandomColors(dummyData);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0f021f] via-[#1a0533] to-[#26084a] text-gray-100 flex flex-col relative">
+    <div>
 
-      {/* Floating Fixed Header */}
-      <header
-        style={{ height: headerHeight }}
-        className="fixed top-0 left-0 right-0 bg-black/40 shadow-lg backdrop-blur-md z-50 flex items-center justify-center px-6"
-      >
-        <div className="flex items-center w-full max-w-3xl space-x-6">
-          <div className="bg-transparent p-1">
-            <img
-              src="/logo.png"
-              alt="Logo"
-              className="h-14 object-contain drop-shadow-[0_0_12px_rgba(167,139,250,0.4)]"
-            />
-          </div>
-          <div className="flex items-center w-full bg-[#1b1033]/70 rounded-full overflow-hidden shadow-lg border border-violet-700/40">
-            <input
-              type="text"
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              placeholder="Search publications..."
-              className="flex-grow p-3 bg-transparent text-white placeholder-gray-400 focus:outline-none"
-            />
-            <button
-              onClick={handleSearch}
-              className="px-5 py-3 bg-violet-600 hover:bg-violet-700 text-white font-semibold transition-all"
-            >
-              <Search className="w-5 h-5" />
-            </button>
-          </div>
+      {/* Floating Search Bar Overlay */}
+      <div className="fixed top-0 left-0 w-full z-50 p-4 flex justify-center">
+        <div className="max-w-3xl w-full flex items-center rounded-full overflow-hidden shadow-lg border border-violet-700/40">
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Search publications..."
+            className="flex-grow p-3 bg-transparent text-white placeholder-gray-400 focus:outline-none"
+          />
+          <button
+            onClick={handleSearch}
+            className="px-5 py-3 bg-violet-600 hover:bg-violet-700 text-white font-semibold transition-all"
+          >
+            <Search className="w-5 h-5" />
+          </button>
         </div>
-      </header>
+      </div>
 
+      <div className="min-h-screen bg-gradient-to-br from-[#0f021f] via-[#1a0533] to-[#26084a] text-gray-100 flex flex-col relative">
+
+      {/* Left arrow tab */}
       {!showPublications && (
         <button
           onClick={togglePublications}
           className="fixed top-1/2 left-0 z-40 bg-violet-600 hover:bg-violet-700 text-white font-bold rounded-r-full shadow-lg w-8 h-14 flex items-center justify-center cursor-pointer transform -translate-y-1/2"
           aria-label="Expand Publications Panel"
           title="Show Publications"
-          style={{ top: `calc(50% + ${headerHeight / 2}px)` }}
         >
           <span className="block w-4 h-4 border-t-2 border-r-2 border-white transform rotate-45" />
         </button>
       )}
 
+      {/* Right arrow tab */}
       {!showSummary && (
         <button
           onClick={toggleSummary}
           className="fixed top-1/2 right-0 z-40 bg-violet-600 hover:bg-violet-700 text-white font-bold rounded-l-full shadow-lg w-8 h-14 flex items-center justify-center cursor-pointer transform -translate-y-1/2"
           aria-label="Expand Summary Panel"
           title="Show Summary"
-          style={{ top: `calc(50% + ${headerHeight / 2}px)` }}
         >
           <span className="block w-4 h-4 border-t-2 border-l-2 border-white transform -rotate-45" />
         </button>
       )}
 
+      {/* Publications Panel */}
       <aside
-        className={`fixed left-0 z-30 flex flex-col overflow-y-auto transition-all duration-300 ${
+        className={`fixed top-20 bottom-20 left-6 z-30 flex flex-col overflow-y-auto transition-all duration-300 ${
           showPublications
             ? "w-72 p-5"
             : "w-0 p-0 bg-transparent border-0 shadow-none"
         } ${showPublications ? panelBaseClasses : ""}`}
-        style={{
-          overflow: showPublications ? "auto" : "hidden",
-          top: headerHeight,
-          bottom: 0,
-        }}
+        style={{ overflow: showPublications ? "auto" : "hidden" }}
       >
         {showPublications && (
           <>
@@ -126,17 +159,14 @@ function Results() {
         )}
       </aside>
 
+      {/* Summary Panel */}
       <aside
-        className={`fixed right-0 z-30 flex flex-col overflow-y-auto transition-all duration-300 ${
+        className={`fixed top-20 bottom-20 right-6 z-30 flex flex-col overflow-y-auto transition-all duration-300 ${
           showSummary
             ? "w-80 p-5"
             : "w-0 p-0 bg-transparent border-0 shadow-none"
         } ${showSummary ? panelBaseClasses : ""}`}
-        style={{
-          overflow: showSummary ? "auto" : "hidden",
-          top: headerHeight,
-          bottom: 0,
-        }}
+        style={{ overflow: showSummary ? "auto" : "hidden" }}
       >
         {showSummary && (
           <>
@@ -185,16 +215,16 @@ function Results() {
         )}
       </aside>
 
-      {/* Knowledge graph fills entire available area below fixed header with no margins */}
-      <section
-        style={{ top: headerHeight, bottom: 0, left: 0, right: 0 }}
-        className="fixed bg-[#1b1033]/90 shadow-lg border border-violet-700/40 flex flex-col items-center justify-center z-10"
-      >
-        <h2 className="text-xl font-semibold text-violet-200 mb-4">Knowledge Graph</h2>
-        <div className="flex-1 w-full border border-violet-700/30 flex items-center justify-center text-gray-400">
-          (Graph visualization will appear here)
+      {/* Knowledge Graph fills entire viewport behind overlays */}
+      <section className="fixed top-0 inset-x-0 bottom-0 bg-[#1b1033]/70 rounded-2xl shadow-lg border border-violet-700/40 flex flex-col items-center justify-center z-10 mx-0">
+        <div className="w-full h-full border border-violet-700/30 rounded-xl flex items-center justify-center text-gray-400">
+          <ForceGraph3D
+            graphData={dummyData}
+            nodeColor={node => node.color}
+          />
         </div>
       </section>
+    </div>
     </div>
   );
 }
