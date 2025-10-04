@@ -44,7 +44,6 @@ function Home() {
         >
         Search
         </button>
-        </button>
 
         </div>
 
