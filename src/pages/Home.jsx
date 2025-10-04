@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
+import axios from 'axios';
 
 function Home() {
   const navigate = useNavigate();
@@ -8,8 +9,24 @@ function Home() {
   const commonTerms = ["Mars", "Microgravity", "Water", "Plants", "Microbes"];
 
   const handleSearch = () => {
-    navigate("/results");
+    accessDB();
+    /*navigate("/results");*/
   };
+
+  function accessDB()
+  {
+    console.log("Connecting to DB API...");
+
+    axios.get("http://127.0.0.1:8000/info").then(
+      function(response){
+        console.log(response);
+      }
+    ).catch(
+      function(error){
+        console.log(error);
+      }
+    )
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-violet-900/80 via-violet-800/60 to-black/90 flex flex-col items-center justify-center p-6">
