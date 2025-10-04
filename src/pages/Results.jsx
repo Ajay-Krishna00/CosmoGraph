@@ -8,9 +8,9 @@ function Results() {
         <>
         <h1>Results</h1>
         <div>
-            <button onClick={() => navigate("/")}>Home</button>
-            <button onClick={() => navigate("/results")}>Results</button>
-            <button onClick={() => navigate("/paper")}>Paper</button>
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={() => navigate("/")}>Home</button>
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={() => navigate("/results")}>Results</button>
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={() => navigate("/paper")}>Paper</button>
         </div>
         </>
     )
