@@ -1,8 +1,20 @@
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router";
 import { Search } from "lucide-react";
+
+import ForceGraph3D from "react-force-graph-3d";
 
 function Results() {
   const [search, setSearch] = useState("");
+  const [showPublications, setShowPublications] = useState(false);
+  const [showSummary, setShowSummary] = useState(false);
+
+  const navigate = useNavigate();
+
+  const handleViewPaper = () => {
+    /*accessDB();*/
+    navigate("/paper");
+  };
 
   const publications = [
     { title: "Microbial Growth in Space", link: "#" },
@@ -14,84 +26,213 @@ function Results() {
     console.log("Searching for:", search);
   };
 
+  const togglePublications = () => {
+    setShowPublications(!showPublications);
+  };
+
+  const toggleSummary = () => {
+    setShowSummary(!showSummary);
+  };
+
+  const panelBaseClasses =
+    "fixed top-20 bottom-20 bg-[#1b1033]/90 p-5 rounded-2xl shadow-lg border border-violet-700/40 z-30 flex flex-col overflow-y-auto transition-all duration-300";
+
+  {/*Graph stuff*/}
+  const [graphData, setGraphData] = useState(null);
+
+  useEffect(() => {
+    fetch("../datasets/blocks.json")
+      .then((res) => res.json())
+      .then((data) => setGraphData(data))
+      .catch((err) => console.error("Failed to load graph data", err));
+  }, []);
+
+  const assignRandomColors = (data) => {
+    data.nodes.forEach(node => {
+      node.color = '#' + Math.floor(Math.random() * 16777215).toString(16);
+    });
+    return data;
+  };
+
+  const dummyData = {
+    nodes: [
+      { id: "node_0", name: "Node 0", val: 10 },
+      { id: "node_1", name: "Node 1", val: 8 },
+      { id: "node_2", name: "Node 2", val: 6 },
+      { id: "node_3", name: "Node 3", val: 9 },
+      { id: "node_4", name: "Node 4", val: 7 },
+      { id: "node_5", name: "Node 5", val: 5 },
+      { id: "node_6", name: "Node 6", val: 10 },
+      { id: "node_7", name: "Node 7", val: 4 },
+      { id: "node_8", name: "Node 8", val: 3 },
+      { id: "node_9", name: "Node 9", val: 2 }
+    ],
+    links: [
+      { source: "node_0", target: "node_1" },
+      { source: "node_0", target: "node_2" },
+      { source: "node_1", target: "node_3" },
+      { source: "node_1", target: "node_4" },
+      { source: "node_2", target: "node_5" },
+      { source: "node_3", target: "node_6" },
+      { source: "node_4", target: "node_7" },
+      { source: "node_5", target: "node_8" },
+      { source: "node_6", target: "node_9" },
+      { source: "node_7", target: "node_8" }
+    ]
+  };
+
+  const coloredData = assignRandomColors(dummyData);
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0f021f] via-[#1a0533] to-[#26084a] text-gray-100 flex flex-col">
-      
-      {/* Header */}
-<header className="flex items-center justify-center p-6 bg-black/40 shadow-lg backdrop-blur-md">
-  <div className="flex items-center w-full max-w-3xl space-x-6">
-    
-    {/* Logo - retains original shape */}
-    <div className="bg-transparent p-1">
-      <img
-        src="/logo.png"
-        alt="Logo"
-        className="h-14 object-contain drop-shadow-[0_0_12px_rgba(167,139,250,0.4)]"
-      />
-    </div>
+    <div>
 
-    {/* Search Bar */}
-    <div className="flex items-center w-full bg-[#1b1033]/70 rounded-full overflow-hidden shadow-lg border border-violet-700/40">
-      <input
-        type="text"
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-        placeholder="Search publications..."
-        className="flex-grow p-3 bg-transparent text-white placeholder-gray-400 focus:outline-none"
-      />
-      <button
-        onClick={handleSearch}
-        className="px-5 py-3 bg-violet-600 hover:bg-violet-700 text-white font-semibold transition-all"
+      {/* Floating Search Bar Overlay */}
+      <div className="fixed top-0 left-0 w-full z-50 p-4 flex justify-center">
+        <div className="max-w-3xl w-full flex items-center rounded-full overflow-hidden shadow-lg border border-violet-700/40">
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Search publications..."
+            className="flex-grow p-3 bg-transparent text-white placeholder-gray-400 focus:outline-none"
+          />
+          <button
+            onClick={handleSearch}
+            className="px-5 py-3 bg-violet-600 hover:bg-violet-700 text-white font-semibold transition-all"
+          >
+            <Search className="w-5 h-5" />
+          </button>
+        </div>
+      </div>
+
+      <div className="min-h-screen bg-gradient-to-br from-[#0f021f] via-[#1a0533] to-[#26084a] text-gray-100 flex flex-col relative">
+
+      {/* Left arrow tab */}
+      {!showPublications && (
+        <button
+          onClick={togglePublications}
+          className="fixed top-1/2 left-0 z-40 bg-violet-600 hover:bg-violet-700 text-white font-bold rounded-r-full shadow-lg w-8 h-14 flex items-center justify-center cursor-pointer transform -translate-y-1/2"
+          aria-label="Expand Publications Panel"
+          title="Show Publications"
+        >
+          <span className="block w-4 h-4 border-t-2 border-r-2 border-white transform rotate-45" />
+        </button>
+      )}
+
+      {/* Right arrow tab */}
+      {!showSummary && (
+        <button
+          onClick={toggleSummary}
+          className="fixed top-1/2 right-0 z-40 bg-violet-600 hover:bg-violet-700 text-white font-bold rounded-l-full shadow-lg w-8 h-14 flex items-center justify-center cursor-pointer transform -translate-y-1/2"
+          aria-label="Expand Summary Panel"
+          title="Show Summary"
+        >
+          <span className="block w-4 h-4 border-t-2 border-l-2 border-white transform -rotate-45" />
+        </button>
+      )}
+
+      {/* Publications Panel */}
+      <aside
+        className={`fixed top-20 bottom-20 left-6 z-30 flex flex-col overflow-y-auto transition-all duration-300 ${
+          showPublications
+            ? "w-72 p-5"
+            : "w-0 p-0 bg-transparent border-0 shadow-none"
+        } ${showPublications ? panelBaseClasses : ""}`}
+        style={{ overflow: showPublications ? "auto" : "hidden" }}
       >
-        <Search className="w-5 h-5" />
-      </button>
+        {showPublications && (
+          <>
+            <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
+              Publications
+            </h2>
+            <ul className="space-y-3">
+              {publications.map((pub, index) => (
+                <li key={index}>
+                  <a
+                    href={pub.link}
+                    className="block text-gray-300 hover:text-violet-300 transition"
+                  >
+                    {pub.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <button
+              onClick={togglePublications}
+              className="mt-auto bg-violet-500 hover:bg-violet-400 text-white font-bold py-2 px-4 rounded"
+            >
+              Close
+            </button>
+          </>
+        )}
+      </aside>
+
+      {/* Summary Panel */}
+      <aside
+        className={`fixed top-20 bottom-20 right-6 z-30 flex flex-col overflow-y-auto transition-all duration-300 ${
+          showSummary
+            ? "w-80 p-5"
+            : "w-0 p-0 bg-transparent border-0 shadow-none"
+        } ${showSummary ? panelBaseClasses : ""}`}
+        style={{ overflow: showSummary ? "auto" : "hidden" }}
+      >
+        {showSummary && (
+          <>
+            <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
+              Title
+            </h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              How to kill a mockingbird
+            </p>
+
+            <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
+              Authors
+            </h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              Albert Einstein, Thaariq Haasan, Issac Newton, Ajay Krishna
+            </p>
+
+            <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
+              Published on
+            </h2>
+            <p className="text-gray-300 leading-relaxed mb-4">October 4th, 2025</p>
+
+            <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
+              Summary
+            </h2>
+            <p className="text-gray-300 leading-relaxed">
+              Summary of the selected publication will be displayed here once
+              summarization is implemented.
+            </p>
+
+            <div className="flex gap-4 mt-auto">
+              <button
+                onClick={handleViewPaper}
+                className="flex-1 bg-violet-500 hover:bg-violet-400 text-white font-bold py-2 px-4 border border-violet-600 rounded"
+              >
+                View article
+              </button>
+              <button
+                onClick={toggleSummary}
+                className="flex-1 bg-violet-500 hover:bg-violet-400 text-white font-bold py-2 px-4 rounded"
+              >
+                Close
+              </button>
+            </div>
+          </>
+        )}
+      </aside>
+
+      {/* Knowledge Graph fills entire viewport behind overlays */}
+      <section className="fixed top-0 inset-x-0 bottom-0 bg-[#1b1033]/70 rounded-2xl shadow-lg border border-violet-700/40 flex flex-col items-center justify-center z-10 mx-0">
+        <div className="w-full h-full border border-violet-700/30 rounded-xl flex items-center justify-center text-gray-400">
+          <ForceGraph3D
+            graphData={dummyData}
+            nodeColor={node => node.color}
+          />
+        </div>
+      </section>
     </div>
-  </div>
-</header>
-
-
-      {/* Main Content */}
-      <main className="flex flex-1 p-8 gap-8">
-        
-        {/* Publications list */}
-        <aside className="w-1/4 bg-[#1b1033]/70 p-5 rounded-2xl shadow-lg border border-violet-700/40">
-          <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
-            Publications
-          </h2>
-          <ul className="space-y-3">
-            {publications.map((pub, index) => (
-              <li key={index}>
-                <a
-                  href={pub.link}
-                  className="block text-gray-300 hover:text-violet-300 transition"
-                >
-                  {pub.title}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </aside>
-
-        {/* Knowledge Graph placeholder */}
-        <section className="flex-1 bg-[#1b1033]/70 rounded-2xl shadow-lg border border-violet-700/40 flex flex-col items-center justify-center">
-          <h2 className="text-xl font-semibold text-violet-200 mb-4">
-            Knowledge Graph
-          </h2>
-          <div className="w-full h-80 border border-violet-700/30 rounded-xl flex items-center justify-center text-gray-400">
-            (Graph visualization will appear here)
-          </div>
-        </section>
-
-        {/* Summary section */}
-        <aside className="w-1/4 bg-[#1b1033]/70 p-5 rounded-2xl shadow-lg border border-violet-700/40">
-          <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
-            Summary
-          </h2>
-          <p className="text-gray-300 leading-relaxed">
-            Summary of the selected publication will be displayed here once summarization is implemented.
-          </p>
-        </aside>
-      </main>
     </div>
   );
 }
