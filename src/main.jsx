@@ -7,6 +7,8 @@ import Home from "./pages/Home";
 import Results from "./pages/Results";
 import Paper from "./pages/Paper";
 
+import "./styles/main.css";
+
 const root = document.getElementById("root");
 
 ReactDOM.createRoot(root).render(
