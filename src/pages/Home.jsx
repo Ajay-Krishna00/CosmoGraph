@@ -9,8 +9,8 @@ function Home() {
   const commonTerms = ["Mars", "Microgravity", "Water", "Plants", "Microbes"];
 
   const handleSearch = () => {
-    accessDB();
-    /*navigate("/results");*/
+    /*accessDB();*/
+    navigate("/results");
   };
 
   function accessDB()

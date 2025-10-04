@@ -83,13 +83,41 @@ function Results() {
         </section>
 
         {/* Summary section */}
-        <aside className="w-1/4 bg-[#1b1033]/70 p-5 rounded-2xl shadow-lg border border-violet-700/40">
+        <aside className="w-1/4 bg-[#1b1033]/70 p-5 rounded-2xl shadow-lg border border-violet-700/40 flex flex-col">
+          <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
+            Title
+          </h2>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            How to kill a mockingbird
+          </p>
+
+          <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
+            Authors
+          </h2>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            Albert Einstein, Thaariq Haasan, Issac Newton, Ajay Krishna
+          </p>
+
+          <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
+            Published on
+          </h2>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            October 4th, 2025
+          </p>
+
           <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
             Summary
           </h2>
           <p className="text-gray-300 leading-relaxed">
             Summary of the selected publication will be displayed here once summarization is implemented.
           </p>
+
+          <button
+            onClick={handleSearch}
+            className="mt-auto bg-violet-500 hover:bg-violet-400 text-white font-bold py-2 px-4 border border-violet-600 rounded"
+          >
+            View article
+          </button>
         </aside>
       </main>
     </div>
