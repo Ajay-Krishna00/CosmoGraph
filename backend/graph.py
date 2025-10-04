@@ -69,7 +69,7 @@ def generate_knowledge_graph(query: SearchQuery):
             "new_match_publication",
             {
                 "query_embedding": query_embedding,
-                "match_threshold": 0.6,  # Minimum similarity threshold
+                "match_threshold": 0.4,  # Minimum similarity threshold
                 "match_count": query.top_k
             }
         ).execute()

@@ -6,7 +6,6 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "./pages/Home";
 import Results from "./pages/Results";
 import Paper from "./pages/Paper";
-import KnowledgeGraph from "./pages/Graph";
 
 import "./styles/main.css";
 
