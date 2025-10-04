@@ -280,7 +280,7 @@ function Results() {
 
       {/* Summary Panel */}
       
-<aside
+    <aside
   className={`fixed top-20 bottom-20 right-6 z-30 flex flex-col overflow-y-auto transition-all duration-300 ${
     showSummary
       ? "w-100 p-5"
@@ -289,25 +289,28 @@ function Results() {
   style={{ overflow: showSummary ? "auto" : "hidden" }}
 >
   {showSummary && selectedPublication && (
-    <>
-      <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
-        Summary
-      </h2>
-      <p className="text-gray-300 leading-relaxed">
-        {selectedPublication.summary ||
-          "Summary of the selected publication will be displayed here once summarization is implemented."}
-      </p>
+    <div className="flex flex-col h-full">
+      <div className="flex-grow overflow-y-auto">
+        <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
+          Summary
+        </h2>
+        <p className="text-gray-300 leading-relaxed">
+          {selectedPublication.summary ||
+            "Summary of the selected publication will be displayed here once summarization is implemented."}
+        </p>
+      </div>
 
-      
-    <button
-          onClick={togglePublications}
-          className="mt-4 bg-violet-500 hover:bg-violet-400 text-white font-bold py-2 px-4 rounded"
-        >
-          Close
-    </button>
-    </>
+      {/* Close button fixed at bottom */}
+      <button
+        onClick={toggleSummary}
+        className="mt-auto bg-violet-500 hover:bg-violet-400 text-white font-bold py-2 px-4 rounded self-center w-1/2"
+      >
+        Close
+      </button>
+    </div>
   )}
-</aside>
+  </aside>
+
 
 
 
