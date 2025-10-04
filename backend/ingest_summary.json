@@ -1,0 +1,4251 @@
+[
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4136787/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 71,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3630201/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 75,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11988870/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 80,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7998608/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5587110/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 65,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8396460/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 53,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5666799/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 55,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5460236/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 37,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6222041/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 43,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6813909/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 44,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4095884/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 59,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3040128/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 55,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3177255/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 64,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11500582/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 35,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5387210/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 54,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4642138/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 57,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5387210/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 54,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2915878/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 64,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3901686/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 44,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6985101/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 3,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6387434/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 66,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6371294/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 39,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7072278/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 68,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8441986/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 112,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9400218/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 46,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9267413/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 102,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9576569/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 56,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10789781/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 65,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10772081/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 65,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166946/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 85,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166944/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 131,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166968/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 53,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7000411/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 55,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7787258/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 65,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8716943/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 69,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4826010/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 122,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6048781/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 17,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7010715/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 73,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7503278/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 58,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8364238/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 89,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11579474/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 61,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2998437/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 42,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3005423/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 36,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3190158/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 19,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3289768/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 39,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3508904/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 30,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3430326/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 45,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3593973/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 39,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5018776/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 2,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4896697/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 13,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11127935/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 61,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11831363/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 2,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11930778/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 52,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8816950/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 57,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3774184/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4118556/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4653813/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 26,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6915713/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 66,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6124165/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 28,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8509868/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 20,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11063234/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 68,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5672023/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 94,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5899691/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 91,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6204554/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 123,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4064004/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 58,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3818365/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 37,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3981873/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 51,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4150462/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 12,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4378170/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 60,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4618186/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 26,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4453782/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 78,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4902601/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 82,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4776492/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 78,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5415411/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 55,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6289879/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 68,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7987364/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 59,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8099722/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 56,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5116466/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 2,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4033213/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 35,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6081456/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 27,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5955502/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10285634/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 61,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11271499/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 28,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6062551/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 67,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9832585/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 64,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7829349/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 68,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3570223/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 54,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3457586/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 56,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3558598/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11046949/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 61,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3890248/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 29,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3868799/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 26,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4960141/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 44,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5736159/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 54,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5761896/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 55,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5826609/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 65,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6366624/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11929063/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 57,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11929063/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 57,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10996920/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 43,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7954810/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 39,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4228280/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3639165/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 43,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8044432/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 57,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7778922/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 33,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7870178/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 123,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7733874/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7828077/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 38,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8044432/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 57,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166911/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 78,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11167097/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 8,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11094041/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 29,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11053165/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 62,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11403809/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 17,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8513672/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 59,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11126634/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 41,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11386075/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 70,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3502426/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 45,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3856860/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 38,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3615599/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 45,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4050424/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 49,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3659353/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 50,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4169763/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 27,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4398884/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 42,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4379453/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 42,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4385880/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 49,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4964660/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 46,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5866446/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 45,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6165321/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 42,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7339929/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 45,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8220224/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 63,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2910419/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 69,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3166430/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 68,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6615562/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 43,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7324008/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 60,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8412175/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 24,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10607959/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 4,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9699585/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 57,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9953055/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10528075/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 53,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10813126/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 37,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10390562/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 71,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4290804/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 52,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5515520/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 50,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5286820/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 68,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5470433/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 11,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5491145/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 65,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5996828/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 12,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6201722/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 46,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6240453/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 41,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6447593/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 28,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7264257/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7064724/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 114,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6379395/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 23,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4187166/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 38,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5219934/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 50,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6386654/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 35,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7940393/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 58,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9023564/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 66,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9389742/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 79,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2824534/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 38,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2991213/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 39,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8269219/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 2,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11362537/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 92,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9111996/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 62,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10308117/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 68,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10233975/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 65,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10848226/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 58,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3329368/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 11,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12008199/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 90,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12008199/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 90,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4035928/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 46,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12008199/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 90,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5181587/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 67,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4936552/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 73,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7610290/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5614317/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 35,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5677518/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11850895/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 56,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7076552/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 72,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7414185/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 58,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8133610/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 60,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8113475/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 46,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9706465/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 88,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10027818/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 77,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3337602/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 28,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4490751/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 40,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5132293/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 35,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11747068/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 73,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5666834/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6753329/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 68,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7012842/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 87,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4405755/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 57,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8260663/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 45,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4647464/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 81,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5659752/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 81,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6372189/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 106,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6945029/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 61,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7000411/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 55,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8191917/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 59,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9865768/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 61,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10797188/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 118,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10797188/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 118,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7555395/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 40,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4309212/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 50,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6560652/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 49,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6321533/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 30,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12040010/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 23,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11833055/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 78,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9146534/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 42,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11492218/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 30,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6339989/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 37,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4110898/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 27,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3947616/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 24,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5477841/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 45,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9139491/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 43,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5515531/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 74,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3258067/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 29,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10025027/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7733933/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 65,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9105288/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 42,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9617909/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 45,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9695138/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 37,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3503204/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 37,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5896955/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 152,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4469364/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 46,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4411250/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 30,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5047659/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 57,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5454470/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 99,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5515506/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 44,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3044105/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 31,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3002170/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 37,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6188462/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 27,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11470607/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 74,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3603133/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 41,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6462350/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 40,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4012541/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4653058/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 38,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6137544/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 70,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2913424/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 79,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7190111/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 60,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7382458/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 53,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8444978/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 10,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9241228/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 73,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8953707/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 51,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166646/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 72,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3747666/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 38,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4337661/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 26,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4631774/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 43,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5052530/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5114340/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 33,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5488280/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 43,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9293686/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 40,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6091969/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 92,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7029147/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3092937/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 55,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5748516/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9287483/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 112,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5748516/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4211383/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 100,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5748516/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5821596/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 71,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6889863/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 52,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6908503/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 42,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7607443/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 50,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10764921/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 41,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9605285/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 69,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3962621/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 57,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4462657/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5026643/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 41,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5026642/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 62,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10342025/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 46,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11167039/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 53,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10020673/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 69,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9144607/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 61,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7314936/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 74,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4340379/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 53,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5933128/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 90,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8185232/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 95,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3936501/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 61,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11998595/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 36,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7996555/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 53,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8234954/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 60,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4152162/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 65,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5498037/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 60,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6547757/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 60,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6747492/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 45,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6746706/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 55,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8400407/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 40,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9365836/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9547011/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 60,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10138634/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12031868/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 56,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9583032/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 81,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9746133/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 57,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10422843/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 114,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11022651/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 76,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11094041/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 29,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11357997/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 111,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11167063/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 77,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166909/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 72,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11222149/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 93,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166948/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 81,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166952/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 103,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166937/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 144,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11357981/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 88,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166969/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 81,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166943/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 81,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166967/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 104,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11167060/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 105,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166981/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 92,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11263583/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 69,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11484870/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 2,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10780891/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 62,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7067979/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 72,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4321547/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 46,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6710492/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 57,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12008199/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 90,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8518694/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 83,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9861679/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 80,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2897429/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 35,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4187989/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 58,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8217198/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 43,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6981245/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 40,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6981245/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 40,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6131065/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 31,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11233762/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 46,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6213004/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 51,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7171750/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 61,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10414970/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 97,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8450295/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 34,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8183356/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 70,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8932657/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 76,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10504369/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 61,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3982735/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 62,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4682325/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 79,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10264680/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 69,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7358545/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 77,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9108708/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 55,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7555797/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 60,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3545801/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 27,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3869332/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 5,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4135744/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 34,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3911009/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 30,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4923109/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11673879/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 80,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5648920/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5817088/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 44,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7825584/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 35,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8904044/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 49,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3012082/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 73,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11088941/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 95,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3187170/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 63,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3133089/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 54,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3242767/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 38,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3067220/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 44,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3251573/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 63,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3647661/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 34,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4085587/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 27,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4096993/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 73,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7467030/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 55,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4427280/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5460263/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 68,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6204695/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 95,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7943786/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 60,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11888247/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 65,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3851762/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 71,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8067245/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 97,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8044432/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 57,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9701605/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 59,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166648/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 49,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166662/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 57,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3838407/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 41,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3748764/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 63,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2925951/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 68,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3350920/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 46,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3422896/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 66,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11869762/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 46,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10712242/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 97,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6143729/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 52,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10058394/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 93,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4103452/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 22,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8024390/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 118,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6348315/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 70,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6359015/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 112,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7667275/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 51,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7756144/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 67,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8169688/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 45,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8475764/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 99,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9098553/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10503492/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 123,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9693084/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 44,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3792163/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 1,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4430214/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 53,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5045078/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 44,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5443495/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 67,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5666744/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 60,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5865701/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 106,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6337482/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 43,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9953463/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 49,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10487739/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 41,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11942576/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 56,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4052902/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 76,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8539686/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10800490/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 76,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7756143/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 51,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3066201/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 71,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11324864/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 52,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3665236/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 24,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10470837/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10386755/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 68,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8896891/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 53,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8430797/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 76,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5460135/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 64,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10774393/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 60,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6126739/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 76,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4411111/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 68,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6126739/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 76,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9445043/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 50,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3509447/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 68,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5600826/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 41,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10831389/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 53,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10831389/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 53,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4507784/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 80,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4349987/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 45,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6638264/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 58,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6130020/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 49,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9695374/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 50,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6141014/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 21,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6706399/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 38,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12034070/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 33,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7235020/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 32,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7599661/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 55,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8493566/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 50,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10926278/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 1,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6069985/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 62,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9856674/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 60,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9410522/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 72,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10344948/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 55,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4750446/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 41,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7162976/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 53,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11353732/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11953390/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 38,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9737020/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 77,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5515519/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 39,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10144393/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 66,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10719374/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 51,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11096397/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 57,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166655/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 42,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7937622/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 70,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7055474/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 65,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7118179/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 8,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4494396/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 58,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8323809/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 39,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8886715/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 36,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8890767/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 45,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9487896/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 27,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10142442/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 42,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11477029/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 49,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4309301/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166981/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 92,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6343501/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 66,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7138367/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6689164/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 103,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3564669/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 41,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042434/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 54,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4161659/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 52,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4917201/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4985531/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 41,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5421618/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 42,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5515514/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 25,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8671758/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 45,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5771473/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 36,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5288125/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5389344/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 41,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9784906/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 45,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6548323/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 61,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6597714/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 49,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6865368/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 43,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7907224/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 30,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8213760/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 15,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9582271/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 53,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10063413/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 42,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10889206/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 43,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8468678/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 29,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9031868/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 133,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10030976/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 57,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5910807/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 63,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12021249/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6057834/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 67,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6876156/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 71,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7415877/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 42,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7285199/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 44,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9549344/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 65,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7530743/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 84,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7890410/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 69,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9640571/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 69,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9862956/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 44,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10410709/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 75,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10751425/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 46,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10605753/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 60,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10846184/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 73,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166967/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 104,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11302229/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 63,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11487192/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 88,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3554398/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 54,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10370681/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 43,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4624184/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 79,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4945788/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 7,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9116463/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 39,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5201052/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 6,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5391430/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 7,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5504618/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 71,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5580210/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 2,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8421509/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 51,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5552977/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 9,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5805884/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 6,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5864415/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 71,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6013642/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 5,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5578834/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 6,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9241228/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 73,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5958250/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 7,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7326050/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 55,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6251167/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 42,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6280456/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 2,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9098231/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 57,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9116463/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 39,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6426649/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 75,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6452512/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 98,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6529585/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 54,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6952069/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 56,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7303416/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 8,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7317102/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 8,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7393961/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 8,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7484075/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 9,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7516158/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 9,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7561690/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 10,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7595942/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 8,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7677455/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 86,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8005752/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 50,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8104057/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 9,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12034939/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 54,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8012687/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 107,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8086211/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 9,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8211661/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 56,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11988970/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 100,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8754149/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 66,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8875396/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 73,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9258157/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 79,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9503880/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9743659/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 62,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10233975/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 65,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10308117/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 68,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10715203/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 52,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10628120/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 92,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10960378/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 73,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10628120/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 92,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11451251/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 74,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5523082/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 42,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6590338/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 67,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6036641/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 33,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6599637/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 40,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8274610/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 109,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8131644/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 69,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9163032/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 16,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5568470/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 40,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5485990/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 38,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5460239/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 38,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6275019/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 62,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5397022/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 31,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7251690/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 67,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10284894/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 170,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10030976/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 57,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8421509/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 51,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9964234/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 35,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10793275/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 8,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4116675/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 47,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5810432/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 37,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10261121/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 60,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8739323/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 78,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8739323/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 78,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9502502/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 51,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10432549/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 71,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7261848/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 50,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8537831/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 72,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8879990/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 54,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10472590/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 11,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11999716/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 59,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11969330/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 56,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11940681/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 54,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11941215/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 40,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11892206/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 54,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11748630/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 66,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11659408/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 66,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11701653/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 61,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11593819/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 51,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11477029/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 49,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11487192/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 88,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11484870/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 2,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11451251/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 74,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11403809/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 17,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11386075/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 70,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11362537/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 92,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11339457/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 52,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11324864/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 52,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11353732/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 48,
+    "error": null
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11271499/",
+    "fetched": true,
+    "pub_upserted": true,
+    "chunks_inserted": 28,
+    "error": null
+  }
+]
