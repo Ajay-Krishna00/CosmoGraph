@@ -319,8 +319,8 @@ function Results() {
             backgroundColor="#0a0e27"
             nodeCanvasObject={(node, ctx, globalScale) => {
               const label = node.label;
-              const fontSize = 18 / globalScale;
-              const nodeSize = Math.max(node.group * 1, 2);
+              const fontSize = 12 / globalScale;
+              const nodeSize = Math.max(node.group * 2, 5);
 
               ctx.beginPath();
               ctx.arc(node.x, node.y, nodeSize, 0, 2 * Math.PI, false);
@@ -339,10 +339,18 @@ function Results() {
               const textWidth = ctx.measureText(label).width;
               const padding = 4;
 
+              ctx.fillStyle = "rgba(20, 27, 45, 0.9)";
+              ctx.fillRect(
+                node.x - textWidth / 2 - padding,
+                node.y + nodeSize + 4,
+                textWidth + padding * 2,
+                fontSize + padding * 2
+              );
+
               ctx.textAlign = "center";
               ctx.textBaseline = "middle";
               ctx.fillStyle = "#fff";
-              ctx.fillText(label, node.x, node.y + nodeSize + fontSize / 2 + 2);
+              ctx.fillText(label, node.x, node.y + nodeSize + fontSize / 2 + 8);
             }}
             cooldownTicks={100}
             d3VelocityDecay={0.3}
@@ -350,6 +358,7 @@ function Results() {
           />
         </div>
       </section>
+
 
     </div>
     </div>

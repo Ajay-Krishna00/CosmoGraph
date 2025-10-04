@@ -13,6 +13,11 @@ function Home() {
     navigate("/results", { state: { query: search } });
   };
 
+  const openPageResultsQuery = (query) => {
+    /*accessDB();*/
+    navigate("/results", { state: { query: query } });
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-violet-900/80 via-violet-800/60 to-black/90 flex flex-col items-center justify-center p-6">
       
@@ -52,12 +57,13 @@ function Home() {
       {/* Common Terms */}
       <div className="flex flex-wrap justify-center mt-6 gap-2">
         {commonTerms.map((term) => (
-          <span
+          <button
             key={term}
-            className="text-violet-300 text-sm px-3 py-1 border border-violet-500 rounded-full"
+            onClick={() => openPageResultsQuery(term)}
+            className="text-violet-300 hover:bg-violet-500 text-sm px-3 py-1 border border-violet-500 rounded-full"
           >
             {term}
-          </span>
+          </button>
         ))}
       </div>
     </div>
