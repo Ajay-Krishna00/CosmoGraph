@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router";
 import { Search } from "lucide-react";
 
 import ForceGraph3D from "react-force-graph-3d";
@@ -7,6 +8,13 @@ function Results() {
   const [search, setSearch] = useState("");
   const [showPublications, setShowPublications] = useState(false);
   const [showSummary, setShowSummary] = useState(false);
+
+  const navigate = useNavigate();
+
+  const handleViewPaper = () => {
+    /*accessDB();*/
+    navigate("/paper");
+  };
 
   const publications = [
     { title: "Microbial Growth in Space", link: "#" },
@@ -199,7 +207,7 @@ function Results() {
 
             <div className="flex gap-4 mt-auto">
               <button
-                onClick={handleSearch}
+                onClick={handleViewPaper}
                 className="flex-1 bg-violet-500 hover:bg-violet-400 text-white font-bold py-2 px-4 border border-violet-600 rounded"
               >
                 View article

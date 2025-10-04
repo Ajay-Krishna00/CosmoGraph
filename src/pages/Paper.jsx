@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import { useNavigate } from "react-router";
 
 const paper = {
   title: "Understanding Quantum Entanglement in Photonic Systems",
@@ -37,6 +38,13 @@ export default function Paper() {
   };
   const [isNavOpen, setNavOpen] = useState(false);
 
+  const navigate = useNavigate();
+
+  const handleBack = () => {
+    /*accessDB();*/
+    navigate("/");
+  };
+
   const scrollToSection = (sectionId) => {
     refs[sectionId].current.scrollIntoView({ behavior: "smooth" });
     setNavOpen(false); // close nav after click
@@ -54,6 +62,28 @@ export default function Paper() {
         <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
         </svg>
+      </button>
+
+      <button
+        className="fixed top-4 right-4 z-50 p-3 rounded-full shadow"
+        onClick={() => handleBack()}
+        aria-label="Go back"
+      >
+        {/* Back Icon */}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <polyline points="15 18 9 12 15 6" />
+        </svg>
+
       </button>
 
       {/* Toggleable Navigation Bar */}
