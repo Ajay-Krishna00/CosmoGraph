@@ -6,6 +6,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "./pages/Home";
 import Results from "./pages/Results";
 import Paper from "./pages/Paper";
+import KnowledgeGraph from "./pages/graph";
 
 import "./styles/main.css";
 
@@ -17,6 +18,7 @@ ReactDOM.createRoot(root).render(
       <Route path="/" element={<Home/>}/>
       <Route path="/paper" element={<Paper/>}/>
       <Route path="/results" element={<Results/>}/>
+      <Route path="/graph" element={<KnowledgeGraph/>}/>
     </Routes>
   </BrowserRouter>
 );
