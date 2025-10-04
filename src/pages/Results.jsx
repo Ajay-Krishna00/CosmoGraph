@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
-import { useNavigate } from "react-router";
+import { useNavigate, useLocation } from "react-router";
 import { Search } from "lucide-react";
 
 import ForceGraph2D from "react-force-graph-2d";
@@ -7,8 +7,12 @@ const API_URL = "http://localhost:8000";
 
 function Results() {
   const [search, setSearch] = useState("");
+  const [searchQuery, setSearchQuery] = useState("");
   const [showPublications, setShowPublications] = useState(true);
   const [showSummary, setShowSummary] = useState(true);
+
+  const location = useLocation();
+  const { query } = location.state || {};
 
   const navigate = useNavigate();
 
@@ -36,10 +40,40 @@ function Results() {
 
   {/*Graph stuff*/}
   useEffect(() => {
+
+    setSearchQuery(query);
+    setSearch(query);
+
+    const handleSearch2 = async () => {
+      if (!query.trim()) return;
+
+      setLoading(true);
+      try {
+        const response = await fetch(`${API_URL}/graph`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            query: query,
+            top_k: 50  // Get top 50 similar publications
+          })
+        });
+        const data = await response.json();
+        console.log(data);
+        setGraphData(data);
+      } catch (error) {
+        console.error("Error fetching graph:", error);
+        alert("Error fetching graph. Make sure the backend is running.");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    handleSearch2();
+    /*
     fetch("../datasets/blocks.json")
       .then((res) => res.json())
       .then((data) => setGraphData(data))
-      .catch((err) => console.error("Failed to load graph data", err));
+      .catch((err) => console.error("Failed to load graph data", err));*/
   }, []);
 
   {/*
@@ -81,7 +115,6 @@ function Results() {
   */}
 
   const [graphData, setGraphData] = useState({ nodes: [], links: [] });
-  const [searchQuery, setSearchQuery] = useState("");
   const [loading, setLoading] = useState(false);
 
   const handleSearch = async () => {
@@ -264,72 +297,69 @@ function Results() {
       </aside>
 
       {/* Knowledge Graph fills entire viewport behind overlays */}
-      <section className="fixed top-0 inset-x-0 bottom-0 bg-[#1b1033]/70 rounded-2xl shadow-lg border border-violet-700/40 flex flex-col items-center justify-center z-10 mx-0">
+      <section className="fixed inset-0 bg-[#1b1033]/70 rounded-2xl shadow-lg border border-violet-700/40 flex items-center justify-center z-10">
         <div className="w-full h-full border border-violet-700/30 rounded-xl flex items-center justify-center text-gray-400">
-            <ForceGraph2D
-              graphData={graphData}
-              nodeLabel={node => `${node.label} (${node.group} publications)`}
-              nodeColor={node => {
-                // Color based on frequency (group value)
-                if (node.group >= 4) return "#ff6b9d";  // High frequency
-                if (node.group >= 3) return "#4a9eff";  // Medium-high
-                if (node.group >= 2) return "#6bcf7f";  // Medium
-                return "#ffd93d";  // Low frequency
-              }}
-              nodeRelSize={6}
-              nodeVal={node => Math.max(node.group * 3, 8)}  // Size based on frequency
-              linkColor={() => "#2a3f5f"}
-              linkWidth={link => link.weight * 1.5}  // Thicker for stronger connections
-              linkDirectionalParticles={link => link.weight}  // More particles for stronger links
-              linkDirectionalParticleWidth={2}
-              onNodeClick={handleNodeClick}
-              onNodeHover={handleNodeHover}
-              backgroundColor="#0a0e27"
-              nodeCanvasObject={(node, ctx, globalScale) => {
-                const label = node.label;
-                const fontSize = 12 / globalScale;
-                const nodeSize = Math.max(node.group * 2, 5);
+          <ForceGraph2D
+            graphData={graphData}
+            nodeLabel={node => `${node.label} (${node.group} publications)`}
+            nodeColor={node => {
+              if (node.group >= 4) return "#ff6b9d";
+              if (node.group >= 3) return "#4a9eff";
+              if (node.group >= 2) return "#6bcf7f";
+              return "#ffd93d";
+            }}
+            nodeRelSize={6}
+            nodeVal={node => Math.max(node.group * 3, 8)}
+            linkColor={() => "#2a3f5f"}
+            linkWidth={link => link.weight * 1.5}
+            linkDirectionalParticles={link => link.weight}
+            linkDirectionalParticleWidth={2}
+            onNodeClick={handleNodeClick}
+            onNodeHover={handleNodeHover}
+            backgroundColor="#0a0e27"
+            nodeCanvasObject={(node, ctx, globalScale) => {
+              const label = node.label;
+              const fontSize = 12 / globalScale;
+              const nodeSize = Math.max(node.group * 2, 5);
 
-                // Draw node circle
-                ctx.beginPath();
-                ctx.arc(node.x, node.y, nodeSize, 0, 2 * Math.PI, false);
+              ctx.beginPath();
+              ctx.arc(node.x, node.y, nodeSize, 0, 2 * Math.PI, false);
 
-                // Color based on frequency
-                if (node.group >= 4) ctx.fillStyle = "#ff6b9d";
-                else if (node.group >= 3) ctx.fillStyle = "#4a9eff";
-                else if (node.group >= 2) ctx.fillStyle = "#6bcf7f";
-                else ctx.fillStyle = "#ffd93d";
+              if (node.group >= 4) ctx.fillStyle = "#ff6b9d";
+              else if (node.group >= 3) ctx.fillStyle = "#4a9eff";
+              else if (node.group >= 2) ctx.fillStyle = "#6bcf7f";
+              else ctx.fillStyle = "#ffd93d";
 
-                ctx.fill();
-                ctx.strokeStyle = "#fff";
-                ctx.lineWidth = 2 / globalScale;
-                ctx.stroke();
+              ctx.fill();
+              ctx.strokeStyle = "#fff";
+              ctx.lineWidth = 2 / globalScale;
+              ctx.stroke();
 
-                // Draw label with background
-                ctx.font = `${fontSize}px Sans-Serif`;
-                const textWidth = ctx.measureText(label).width;
-                const padding = 4;
+              ctx.font = `${fontSize}px Sans-Serif`;
+              const textWidth = ctx.measureText(label).width;
+              const padding = 4;
 
-                // Label background
-                ctx.fillStyle = "rgba(20, 27, 45, 0.9)";
-                ctx.fillRect(
-                  node.x - textWidth / 2 - padding,
-                  node.y + nodeSize + 4,
-                  textWidth + padding * 2,
-                  fontSize + padding * 2
-                );
+              ctx.fillStyle = "rgba(20, 27, 45, 0.9)";
+              ctx.fillRect(
+                node.x - textWidth / 2 - padding,
+                node.y + nodeSize + 4,
+                textWidth + padding * 2,
+                fontSize + padding * 2
+              );
 
-                // Label text
-                ctx.textAlign = "center";
-                ctx.textBaseline = "middle";
-                ctx.fillStyle = "#fff";
-                ctx.fillText(label, node.x, node.y + nodeSize + fontSize / 2 + 8);
-              }}
-              cooldownTicks={100}
-              d3VelocityDecay={0.3}
-            />
+              ctx.textAlign = "center";
+              ctx.textBaseline = "middle";
+              ctx.fillStyle = "#fff";
+              ctx.fillText(label, node.x, node.y + nodeSize + fontSize / 2 + 8);
+            }}
+            cooldownTicks={100}
+            d3VelocityDecay={0.3}
+            style={{ width: '100%', height: '100%' }}
+          />
         </div>
       </section>
+
+
     </div>
     </div>
   );
