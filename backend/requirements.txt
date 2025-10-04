@@ -1,0 +1,9 @@
+pandas
+requests
+beautifulsoup4
+sentence-transformers
+spacy
+supabase
+python-dotenv            # optional, for loading .env
+tqdm
+transformers             # installed automatically by sentence-transformers but safe to include
