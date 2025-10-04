@@ -15,15 +15,10 @@
     "lucide-react": "^0.544.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-<<<<<<< HEAD
     "react-force-graph-2d": "^1.29.0",
+    "react-force-graph-3d": "^1.29.0",
     "react-router-dom": "^7.9.3",
     "react-vis-network-graph": "^3.0.1"
-=======
-    "react-force-graph": "^1.48.1",
-    "react-force-graph-3d": "^1.29.0",
-    "react-router-dom": "^7.9.3"
->>>>>>> 24ab0ad80a67be720f63a863e7445f78524176c8
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
