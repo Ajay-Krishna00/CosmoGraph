@@ -1,3 +1,13 @@
+pandas
+requests
+beautifulsoup4
+sentence-transformers
+spacy
+supabase
+python-dotenv            # optional, for loading .env
+tqdm
+transformers             # installed automatically by sentence-transformers but safe to include
+
 annotated-types==0.7.0
 anyio==4.11.0
 click==8.3.0
