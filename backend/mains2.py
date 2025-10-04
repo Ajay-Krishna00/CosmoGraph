@@ -3,6 +3,7 @@ from sentence_transformers import SentenceTransformer
 from supabase import create_client, Client
 import os
 from dotenv import load_dotenv
+import gemini
 
 # ========================================
 # CONFIGURATION
@@ -227,7 +228,7 @@ def display_results(results: list):
     if not results:
         print("❌ No results to display\n")
         return
-    
+    final_paragraph = ""
     print("=" * 60)
     print("🎯 SEARCH RESULTS")
     print("=" * 60)
@@ -240,6 +241,7 @@ def display_results(results: list):
         if 'content' in result and result['content']:
             content_preview = result['content'][:]
             print(f"   Content: {content_preview}")
+            final_paragraph += f"{content_preview}\n"
         
         # Show first few dimensions of embedding
         if 'embedding' in result:
@@ -247,7 +249,7 @@ def display_results(results: list):
             print(f"   Embedding preview: [{', '.join(f'{x:.4f}' for x in emb_preview)}...]")
     
     print("\n" + "=" * 60 + "\n")
-
+    return final_paragraph
 
 # ========================================
 # DEMO USAGE
@@ -280,7 +282,7 @@ if __name__ == "__main__":
     print("\n💬 Interactive Mode - Enter your queries (type 'quit' to exit):")
     print("-" * 60)
     
-    while True:
+    while True: #Infinite LOOP
         user_query = input("\n🔍 Your query: ").strip()
         
         if user_query.lower() in ['quit', 'exit', 'q']:
@@ -291,4 +293,5 @@ if __name__ == "__main__":
             continue
         
         results = retrieve_similar_vectors(user_query, top_k=50, method="rpc")
-        display_results(results)
+        final_paragraph = display_results(results)
+        gemini.generate_Summary(final_paragraph,user_query)
