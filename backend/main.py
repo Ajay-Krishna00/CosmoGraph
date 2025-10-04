@@ -43,9 +43,17 @@ class GraphLink(BaseModel):
     target: str
     weight: float
 
-class GraphData(BaseModel):
+class PublicationItem(BaseModel):
+    id: str # Assuming an ID field exists
+    title: str # Assuming a title field exists
+    tags: List[str] # Assuming a tags field exists
+    # Add other fields you want to display, e.g., summary, authors, etc.
+    # similarity: float # If you want to include the similarity score
+
+class GraphResponse(BaseModel):
     nodes: List[GraphNode]
     links: List[GraphLink]
+    publications: List[PublicationItem] # Add the list of publications
 
 
 @app.post("/graph")
@@ -74,16 +82,25 @@ def generate_knowledge_graph(query: SearchQuery):
             }
         ).execute()
         
-        publications = response.data
+        publications_data = response.data
         
-        if not publications:
-            return {"nodes": [], "links": []}
+        if not publications_data:
+            return {"nodes": [], "links": [],"publications": []}
         
         # Step 3: Extract all tags from retrieved publications
+        publication_list=[]
         all_tags = []
         tag_to_pubs = defaultdict(list)  # Track which publications contain each tag
         
-        for idx, pub in enumerate(publications):
+        for idx, pub in enumerate(publications_data):
+            publication_list.append({
+                "id": pub.get("id"),
+                "title": pub.get("title", "No Title Available"),
+                "tags": pub.get("tags", [])
+                # Add similarity if the RPC returns it
+                # "similarity": pub.get("similarity_score")
+            })
+
             tags = pub.get("tags", [])
             all_tags.extend(tags)
             for tag in tags:
@@ -104,7 +121,7 @@ def generate_knowledge_graph(query: SearchQuery):
         # Step 5: Create edges based on tag co-occurrence
         edge_weights = defaultdict(int)
         
-        for pub in publications:
+        for pub in publications_data:
             tags = pub.get("tags", [])
             # Create edges between all pairs of tags in the same publication
             for i, tag1 in enumerate(tags):
@@ -122,9 +139,10 @@ def generate_knowledge_graph(query: SearchQuery):
                 "weight": weight
             })
         
-        return {"nodes": nodes, "links": links}
+        return {"nodes": nodes, "links": links,"publications": publication_list}
     
     except Exception as e:
+        print(f"Error in generate_knowledge_graph: {e}") 
         raise HTTPException(status_code=500, detail=str(e))
 
 

@@ -10,6 +10,11 @@ function Results() {
   const [searchQuery, setSearchQuery] = useState("");
   const [showPublications, setShowPublications] = useState(true);
   const [showSummary, setShowSummary] = useState(true);
+  const [graphData, setGraphData] = useState({ nodes: [], links: [] });
+  const [loading, setLoading] = useState(false);
+
+  const [fetchedPublications, setFetchedPublications] = useState([]);
+  const [selectedPublication, setSelectedPublication] = useState(null);
 
   const location = useLocation();
   const { query } = location.state || {};
@@ -21,11 +26,7 @@ function Results() {
     navigate("/paper");
   };
 
-  const publications = [
-    { title: "Microbial Growth in Space", link: "#" },
-    { title: "Water Recovery Systems on Mars Missions", link: "#" },
-    { title: "Plant Adaptation to Microgravity", link: "#" },
-  ];
+  
 
   const togglePublications = () => {
     setShowPublications(!showPublications);
@@ -35,46 +36,72 @@ function Results() {
     setShowSummary(!showSummary);
   };
 
+  // New Handler Function
+  const handleSelectPublication = (publication) => {
+    // This function will eventually fetch the full details/summary 
+    // for the publication if needed, but for now, we use the retrieved data.
+    setSelectedPublication(publication);
+    setShowSummary(true); // Ensure the summary panel is visible
+  };
+
   const panelBaseClasses =
     "fixed top-20 bottom-20 bg-[#1b1033]/90 p-5 rounded-2xl shadow-lg border border-violet-700/40 z-30 flex flex-col overflow-y-auto transition-all duration-300";
 
   {/*Graph stuff*/}
   useEffect(() => {
+  setSearchQuery(query);
+  setSearch(query);
 
-    setSearchQuery(query);
-    setSearch(query);
+  const handleSearch2 = async () => {
+    if (!query.trim()) return;
 
-    const handleSearch2 = async () => {
-      if (!query.trim()) return;
+    setLoading(true);
+    setFetchedPublications([]);
+    setSelectedPublication(null);
 
-      setLoading(true);
-      try {
-        const response = await fetch(`${API_URL}/graph`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            query: query,
-            top_k: 50  // Get top 50 similar publications
-          })
-        });
-        const data = await response.json();
-        console.log(data);
-        setGraphData(data);
-      } catch (error) {
-        console.error("Error fetching graph:", error);
-        alert("Error fetching graph. Make sure the backend is running.");
-      } finally {
-        setLoading(false);
+    try {
+      const response = await fetch(`${API_URL}/graph`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          query: query,
+          top_k: 50
+        })
+      });
+      const data = await response.json();
+      console.log(data);
+      const { nodes, links, publications } = data;
+
+      setGraphData({ nodes, links });
+
+      // ✅ Deduplicate publications by ID or title
+      const uniquePubs = publications.filter(
+        (pub, index, self) =>
+          index === self.findIndex(
+            (p) => p.id === pub.id || p.title === pub.title
+          )
+      );
+
+      setFetchedPublications(uniquePubs); 
+      setShowPublications(true);
+
+      if (uniquePubs.length > 0) {
+        handleSelectPublication(uniquePubs[0]);
+      } else {
+        setSelectedPublication(null);
       }
-    };
 
-    handleSearch2();
-    /*
-    fetch("../datasets/blocks.json")
-      .then((res) => res.json())
-      .then((data) => setGraphData(data))
-      .catch((err) => console.error("Failed to load graph data", err));*/
-  }, []);
+    } catch (error) {
+      console.error("Error fetching graph:", error);
+      alert("Error fetching graph. Make sure the backend is running.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  handleSearch2();
+}, []);
+
 
   {/*
   const assignRandomColors = (data) => {
@@ -113,9 +140,6 @@ function Results() {
 
   const coloredData = assignRandomColors(dummyData);
   */}
-
-  const [graphData, setGraphData] = useState({ nodes: [], links: [] });
-  const [loading, setLoading] = useState(false);
 
   const handleSearch = async () => {
     if (!searchQuery.trim()) return;
@@ -165,7 +189,7 @@ function Results() {
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            onKeyPress={handleKeyPress}
+            onKeyUp={handleKeyPress}
             placeholder="Search publications..."
             className="flex-grow p-3 bg-transparent text-white placeholder-gray-400 focus:outline-none"
           />
@@ -208,31 +232,45 @@ function Results() {
       <aside
         className={`fixed top-20 bottom-20 left-6 z-30 flex flex-col overflow-y-auto transition-all duration-300 ${
           showPublications
-            ? "w-72 p-5"
+            ? "w-100 p-5"
             : "w-0 p-0 bg-transparent border-0 shadow-none"
         } ${showPublications ? panelBaseClasses : ""}`}
         style={{ overflow: showPublications ? "auto" : "hidden" }}
       >
-        {showPublications && (
+{showPublications && (
           <>
             <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
-              Publications
+              Publications ({fetchedPublications.length})
             </h2>
-            <ul className="space-y-3">
-              {publications.map((pub, index) => (
-                <li key={index}>
-                  <a
-                    href={pub.link}
-                    className="block text-gray-300 hover:text-violet-300 transition"
+            {loading && <p className="text-gray-400">Loading publications...</p>}
+            {!loading && fetchedPublications.length === 0 && searchQuery.trim() && (
+                <p className="text-gray-400">No publications found for the query.</p>
+            )}
+            {!loading && fetchedPublications.length === 0 && !searchQuery.trim() && (
+                <p className="text-gray-400">Enter a search query to find related publications.</p>
+            )}
+            <ul className="space-y-3 flex-grow overflow-y-auto">
+              {fetchedPublications.map((pub, index) => (
+                <li 
+                  key={pub.id || index}
+                  className={`p-2 rounded cursor-pointer transition-colors ${
+                      selectedPublication && selectedPublication.id === pub.id 
+                          ? 'bg-violet-700/60 border border-violet-500' 
+                          : 'hover:bg-violet-800/40'
+                  }`}
+                  onClick={() => handleSelectPublication(pub)} // Use the new handler
+                >
+                  <span
+                    className="block text-gray-300 hover:text-violet-300"
                   >
                     {pub.title}
-                  </a>
+                  </span>
                 </li>
               ))}
             </ul>
             <button
               onClick={togglePublications}
-              className="mt-auto bg-violet-500 hover:bg-violet-400 text-white font-bold py-2 px-4 rounded"
+              className="mt-4 bg-violet-500 hover:bg-violet-400 text-white font-bold py-2 px-4 rounded"
             >
               Close
             </button>
@@ -241,60 +279,37 @@ function Results() {
       </aside>
 
       {/* Summary Panel */}
-      <aside
-        className={`fixed top-20 bottom-20 right-6 z-30 flex flex-col overflow-y-auto transition-all duration-300 ${
-          showSummary
-            ? "w-80 p-5"
-            : "w-0 p-0 bg-transparent border-0 shadow-none"
-        } ${showSummary ? panelBaseClasses : ""}`}
-        style={{ overflow: showSummary ? "auto" : "hidden" }}
-      >
-        {showSummary && (
-          <>
-            <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
-              Title
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              How to kill a mockingbird
-            </p>
+      
+<aside
+  className={`fixed top-20 bottom-20 right-6 z-30 flex flex-col overflow-y-auto transition-all duration-300 ${
+    showSummary
+      ? "w-100 p-5"
+      : "w-0 p-0 bg-transparent border-0 shadow-none"
+  } ${showSummary ? panelBaseClasses : ""}`}
+  style={{ overflow: showSummary ? "auto" : "hidden" }}
+>
+  {showSummary && selectedPublication && (
+    <>
+      <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
+        Summary
+      </h2>
+      <p className="text-gray-300 leading-relaxed">
+        {selectedPublication.summary ||
+          "Summary of the selected publication will be displayed here once summarization is implemented."}
+      </p>
 
-            <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
-              Authors
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Albert Einstein, Thaariq Haasan, Issac Newton, Ajay Krishna
-            </p>
+      
+    <button
+          onClick={togglePublications}
+          className="mt-4 bg-violet-500 hover:bg-violet-400 text-white font-bold py-2 px-4 rounded"
+        >
+          Close
+    </button>
+    </>
+  )}
+</aside>
 
-            <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
-              Published on
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">October 4th, 2025</p>
 
-            <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
-              Summary
-            </h2>
-            <p className="text-gray-300 leading-relaxed">
-              Summary of the selected publication will be displayed here once
-              summarization is implemented.
-            </p>
-
-            <div className="flex gap-4 mt-auto">
-              <button
-                onClick={handleViewPaper}
-                className="flex-1 bg-violet-500 hover:bg-violet-400 text-white font-bold py-2 px-4 border border-violet-600 rounded"
-              >
-                View article
-              </button>
-              <button
-                onClick={toggleSummary}
-                className="flex-1 bg-violet-500 hover:bg-violet-400 text-white font-bold py-2 px-4 rounded"
-              >
-                Close
-              </button>
-            </div>
-          </>
-        )}
-      </aside>
 
       {/* Knowledge Graph fills entire viewport behind overlays */}
       <section className="fixed inset-0 bg-[#1b1033]/70 rounded-2xl shadow-lg border border-violet-700/40 flex items-center justify-center z-10">
