@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 .env
 *.kate-swp
+
+__pycache__
