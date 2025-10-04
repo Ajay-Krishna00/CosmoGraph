@@ -8,25 +8,10 @@ function Home() {
 
   const commonTerms = ["Mars", "Microgravity", "Water", "Plants", "Microbes"];
 
-  const handleSearch = () => {
+  const openPageResults = () => {
     /*accessDB();*/
-    navigate("/results");
+    navigate("/results", { state: { query: search } });
   };
-
-  function accessDB()
-  {
-    console.log("Connecting to DB API...");
-
-    axios.get("http://127.0.0.1:8000/info").then(
-      function(response){
-        console.log(response);
-      }
-    ).catch(
-      function(error){
-        console.log(error);
-      }
-    )
-  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-violet-900/80 via-violet-800/60 to-black/90 flex flex-col items-center justify-center p-6">
@@ -56,7 +41,7 @@ function Home() {
           className="flex-grow p-4 bg-violet-900/50 text-white placeholder-violet-300 focus:outline-none focus:ring-2 focus:ring-violet-500"
         />
         <button
-            onClick={handleSearch}
+            onClick={openPageResults}
             className="bg-violet-400 text-white px-6 font-semibold rounded-r-lg transition-colors hover:bg-violet-500"
         >
         Search
