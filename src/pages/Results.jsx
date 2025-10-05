@@ -16,6 +16,8 @@ function Results() {
   const [fetchedPublications, setFetchedPublications] = useState([]);
   const [selectedPublication, setSelectedPublication] = useState(null);
 
+  const [summary, setSummary] = useState("Summary of the selected publication will be displayed here once summarization is implemented.");
+
   const location = useLocation();
   const { query } = location.state || {};
 
@@ -71,6 +73,17 @@ function Results() {
       const data = await response.json();
       console.log(data);
       const { nodes, links, publications } = data;
+
+      const summ=await fetch(`${API_URL}/summarize`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          query: query,
+          top_k: 50
+        })
+      });
+      const summaryData = await summ.json();
+      setSummary(summaryData);
 
       setGraphData({ nodes, links });
 
@@ -297,7 +310,7 @@ function Results() {
           Summary
         </h2>
         <p className="text-gray-300 leading-relaxed">
-          {selectedPublication.summary ||
+          {summary ||
             "Summary of the selected publication will be displayed here once summarization is implemented."}
         </p>
       </div>
@@ -305,7 +318,7 @@ function Results() {
       {/* Close button fixed at bottom */}
       <button
         onClick={toggleSummary}
-        className="mt-auto bg-violet-500 hover:bg-violet-400 text-white font-bold py-2 px-4 rounded self-center w-1/2"
+        className="mt-auto bg-violet-500 hover:bg-violet-400 text-white font-bold py-2 px-4 rounded self-center w-full"
       >
         Close
       </button>

@@ -28,4 +28,4 @@ def generate_Summary(paragraph: str, query: str):
     """
 )
 
-    print(response.text)
+    return response.text if hasattr(response, "text") else str(response)
