@@ -14,15 +14,15 @@ function Home() {
   const commonTerms = ["Mars", "Microgravity", "Plants", "Microbes", "Plant growth"];
 
   useEffect(() => {
-  initParticlesEngine(async (engine) => {
-    await loadSlim(engine);
-  })
-    .then(() => {
-      console.log("Particles engine initialized");
-      setInit(true);
+    initParticlesEngine(async (engine) => {
+      await loadSlim(engine);
     })
-    .catch((err) => console.error("Particle init failed:", err));
-}, []);
+      .then(() => {
+        console.log("Particles engine initialized");
+        setInit(true);
+      })
+      .catch((err) => console.error("Particle init failed:", err));
+  }, []);
 
   const particlesOptions = useMemo(
     () => ({
@@ -68,16 +68,16 @@ function Home() {
   };
 
   return (
-  <div className="relative min-h-screen flex flex-col items-center justify-center p-6 overflow-hidden bg-[#0a021c]">
-    {init && (
-      <Particles 
-        id="tsparticles" 
-        options={particlesOptions} 
-        style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0 }}
-      />
-    )}
-        {/* UI */}
-        <div className="relative z-10 w-full max-w-4xl">
+    <div className="relative min-h-screen flex flex-col items-center justify-center p-6 overflow-hidden bg-[#0a021c]">
+      {init && (
+        <Particles 
+          id="tsparticles" 
+          options={particlesOptions} 
+          style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0 }}
+        />
+      )}
+      {/* UI */}
+      <div className="relative z-10 w-full max-w-4xl">
         <div className="flex flex-col items-center mb-8 text-center">
           <img src="/logo.png" alt="Logo" className="w-20 h-20 mb-2" />
           <h1 className="text-5xl font-extrabold text-violet-400 mb-1 tracking-wide">
@@ -91,6 +91,7 @@ function Home() {
             type="text"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
+            onKeyPress={handleKeyPress}
             placeholder="Try: Effect of microgravity on plant growth"
             className="flex-grow p-4 bg-violet-900/50 text-white placeholder-violet-400 focus:outline-none focus:ring-2 focus:ring-violet-500"
           />
@@ -113,9 +114,8 @@ function Home() {
             </button>
           ))}
         </div>
-      
-        </div>
-  </div>
+      </div>
+    </div>
   );
 }
 
