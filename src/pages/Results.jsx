@@ -154,22 +154,56 @@ function Results() {
   const coloredData = assignRandomColors(dummyData);
   */}
 
-  const handleSearch = async () => {
+    const handleSearch = async () => {
     if (!searchQuery.trim()) return;
 
     setLoading(true);
+    setFetchedPublications([]);
+    setSelectedPublication(null);
+
     try {
       const response = await fetch(`${API_URL}/graph`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           query: searchQuery,
-          top_k: 50  // Get top 50 similar publications
+          top_k: 50
         })
       });
       const data = await response.json();
       console.log(data);
-      setGraphData(data);
+      const { nodes, links, publications } = data;
+
+      const summ = await fetch(`${API_URL}/summarize`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          query: searchQuery,
+          top_k: 50
+        })
+      });
+      const summaryData = await summ.json();
+      setSummary(summaryData);
+
+      setGraphData({ nodes, links });
+
+      // ✅ Deduplicate publications by ID or title
+      const uniquePubs = publications.filter(
+        (pub, index, self) =>
+          index === self.findIndex(
+            (p) => p.id === pub.id || p.title === pub.title
+          )
+      );
+
+      setFetchedPublications(uniquePubs);
+      setShowPublications(true);
+
+      if (uniquePubs.length > 0) {
+        handleSelectPublication(uniquePubs[0]);
+      } else {
+        setSelectedPublication(null);
+      }
+
     } catch (error) {
       console.error("Error fetching graph:", error);
       alert("Error fetching graph. Make sure the backend is running.");
