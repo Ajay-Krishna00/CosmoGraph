@@ -1,7 +1,12 @@
-sentence-transformers #
-supabase #
-dotenv #                  
-google-generativeai  #
-fastapi==0.118.0 #
+torch==2.2.0+cpu
+torchvision==0.17.0+cpu
+torchaudio==2.2.0+cpu
+-f https://download.pytorch.org/whl/torch_stable.html
+
+sentence-transformers
+supabase
+python-dotenv
+google-generativeai
+fastapi==0.118.0
 pydantic==2.11.9
-uvicorn==0.37.0 #
+uvicorn==0.37.0
