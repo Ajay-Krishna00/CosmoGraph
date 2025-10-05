@@ -6,7 +6,7 @@ function Home() {
   const navigate = useNavigate();
   const [search, setSearch] = useState("");
 
-  const commonTerms = ["Mars", "Microgravity", "Water", "Plants", "Microbes"];
+  const commonTerms = ["Mars", "Microgravity", "Plants", "Microbes", "Plant growth"];
 
   const openPageResults = () => {
     /*accessDB();*/
@@ -42,7 +42,7 @@ function Home() {
           type="text"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          placeholder="Search publications..."
+          placeholder="Try: Effect of microgravity on plant growth"
           className="flex-grow p-4 bg-violet-900/50 text-white placeholder-violet-300 focus:outline-none focus:ring-2 focus:ring-violet-500"
         />
         <button
