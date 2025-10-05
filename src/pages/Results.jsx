@@ -258,13 +258,15 @@ function Results() {
                           ? 'bg-violet-700/60 border border-violet-500' 
                           : 'hover:bg-violet-800/40'
                   }`}
-                  onClick={() => handleSelectPublication(pub)} // Use the new handler
                 >
-                  <span
-                    className="block text-gray-300 hover:text-violet-300"
-                  >
-                    {pub.title}
-                  </span>
+                <a
+                  href={pub.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block text-gray-300 hover:text-violet-300 cursor-pointer"
+                >
+                  {pub.title}
+                </a>
                 </li>
               ))}
             </ul>
