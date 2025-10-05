@@ -18,6 +18,13 @@ function Home() {
     navigate("/results", { state: { query: query } });
   };
 
+  // Handle Enter key press
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      openPageResults();
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-violet-900/80 via-violet-800/60 to-black/90 flex flex-col items-center justify-center p-6">
       
@@ -42,7 +49,8 @@ function Home() {
           type="text"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          placeholder="Try: Effect of microgravity on plant growth"
+          onKeyPress={handleKeyPress}
+          placeholder="Try: Effects of zero gravity on muscle mass"
           className="flex-grow p-4 bg-violet-900/50 text-white placeholder-violet-300 focus:outline-none focus:ring-2 focus:ring-violet-500"
         />
         <button
@@ -51,8 +59,7 @@ function Home() {
         >
         Search
         </button>
-
-        </div>
+      </div>
 
       {/* Common Terms */}
       <div className="flex flex-wrap justify-center mt-6 gap-2">
@@ -70,4 +77,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Home
