@@ -11,15 +11,30 @@ const paper = {
   ],
   content: [
     { id: "abstract", type: "heading1", text: "Abstract" },
-    { type: "paragraph", text: "This paper explores the properties of quantum entanglement in photonic systems and its applications in quantum computing and communication." },
+    {
+      type: "paragraph",
+      text: "This paper explores the properties of quantum entanglement in photonic systems and its applications in quantum computing and communication.",
+    },
     { id: "introduction", type: "heading1", text: "Introduction" },
-    { type: "paragraph", text: "Quantum entanglement is a fundamental aspect of quantum mechanics where particles become interconnected regardless of the distance separating them. This work focuses on photonic implementations." },
+    {
+      type: "paragraph",
+      text: "Quantum entanglement is a fundamental aspect of quantum mechanics where particles become interconnected regardless of the distance separating them. This work focuses on photonic implementations.",
+    },
     { id: "background", type: "heading2", text: "Background and Theory" },
-    { type: "paragraph", text: "We review the key theoretical underpinnings of quantum entanglement, including Bell’s theorem and the EPR paradox." },
+    {
+      type: "paragraph",
+      text: "We review the key theoretical underpinnings of quantum entanglement, including Bell’s theorem and the EPR paradox.",
+    },
     { id: "setup", type: "heading2", text: "Experimental Setup" },
-    { type: "paragraph", text: "Our experiments use nonlinear crystals to create entangled photon pairs, detected via coincidence counting." },
+    {
+      type: "paragraph",
+      text: "Our experiments use nonlinear crystals to create entangled photon pairs, detected via coincidence counting.",
+    },
     { id: "results", type: "heading1", text: "Results and Discussion" },
-    { type: "paragraph", text: "The results show high entanglement fidelity and demonstrate quantum teleportation protocols with photons." },
+    {
+      type: "paragraph",
+      text: "The results show high entanglement fidelity and demonstrate quantum teleportation protocols with photons.",
+    },
   ],
   references: [
     "Einstein, A., Podolsky, B., & Rosen, N. (1935). Can Quantum-Mechanical Description of Physical Reality Be Considered Complete? Physical Review.",
@@ -59,8 +74,18 @@ export default function Paper() {
         aria-label="Toggle Navigation"
       >
         {/* Hamburger Icon */}
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        <svg
+          className="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth={2}
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
         </svg>
       </button>
 
@@ -83,7 +108,6 @@ export default function Paper() {
         >
           <polyline points="15 18 9 12 15 6" />
         </svg>
-
       </button>
 
       {/* Toggleable Navigation Bar */}
@@ -114,7 +138,9 @@ export default function Paper() {
           <p className="text-xl italic">Scientific Research Article</p>
           <div className="mt-8 flex justify-center space-x-4">
             {paper.authors.map((author, idx) => (
-              <p key={idx} className="text-lg">{author}</p>
+              <p key={idx} className="text-lg">
+                {author}
+              </p>
             ))}
           </div>
         </section>
@@ -157,9 +183,7 @@ export default function Paper() {
 
         {/* References */}
         <section>
-          <h2 className="text-3xl font-semibold mb-6">
-            References
-          </h2>
+          <h2 className="text-3xl font-semibold mb-6">References</h2>
           <ol className="list-decimal list-inside space-y-2">
             {paper.references.map((ref, idx) => (
               <li key={idx}>{ref}</li>

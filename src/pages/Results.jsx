@@ -16,7 +16,9 @@ function Results() {
   const [fetchedPublications, setFetchedPublications] = useState([]);
   const [selectedPublication, setSelectedPublication] = useState(null);
 
-  const [summary, setSummary] = useState("Summary of the selected publication will be displayed here once summarization is implemented.");
+  const [summary, setSummary] = useState(
+    "Summary of the selected publication will be displayed here once summarization is implemented.",
+  );
 
   const location = useLocation();
   const { query } = location.state || {};
@@ -38,7 +40,7 @@ function Results() {
 
   // New Handler Function
   const handleSelectPublication = (publication) => {
-    // This function will eventually fetch the full details/summary 
+    // This function will eventually fetch the full details/summary
     // for the publication if needed, but for now, we use the retrieved data.
     setSelectedPublication(publication);
     setShowSummary(true); // Ensure the summary panel is visible
@@ -87,9 +89,8 @@ function Results() {
       // Deduplicate publications by ID or title (ONLY DONE ONCE HERE)
       const uniquePubs = publications.filter(
         (pub, index, self) =>
-          index === self.findIndex(
-            (p) => p.id === pub.id || p.title === pub.title
-          )
+          index ===
+          self.findIndex((p) => p.id === pub.id || p.title === pub.title),
       );
 
       setFetchedPublications(uniquePubs);
@@ -100,7 +101,6 @@ function Results() {
       } else {
         setSelectedPublication(null);
       }
-
     } catch (error) {
       console.error("Error fetching graph:", error);
       alert("Error fetching graph. Make sure the backend is running.");
@@ -122,7 +122,7 @@ function Results() {
   };
 
   const handleKeyPress = (e) => {
-    if (e.key === 'Enter') {
+    if (e.key === "Enter") {
       handleSearch();
     }
   };
@@ -137,7 +137,6 @@ function Results() {
 
   return (
     <div>
-
       {/* Floating Search Bar Overlay */}
       <div className="fixed top-0 left-0 w-full z-50 p-4 flex justify-center">
         <div className="max-w-3xl w-full flex items-center rounded-full overflow-hidden shadow-lg border border-violet-700/40">
@@ -159,26 +158,101 @@ function Results() {
       </div>
 
       <div className="min-h-screen bg-gradient-to-br from-[#0f021f] via-[#1a0533] to-[#26084a] text-gray-100 flex flex-col relative">
+        {/* Left arrow tab */}
+        {!showPublications && (
+          <button
+            onClick={togglePublications}
+            className="fixed top-1/2 left-0 z-40 bg-violet-600 hover:bg-violet-700 text-white font-bold rounded-r-full shadow-lg w-8 h-14 flex items-center justify-center cursor-pointer transform -translate-y-1/2"
+            aria-label="Expand Publications Panel"
+            title="Show Publications"
+          >
+            <span className="block w-4 h-4 border-t-2 border-r-2 border-white transform rotate-45" />
+          </button>
+        )}
 
-      {/* Left arrow tab */}
-      {!showPublications && (
-        <button
-          onClick={togglePublications}
-          className="fixed top-1/2 left-0 z-40 bg-violet-600 hover:bg-violet-700 text-white font-bold rounded-r-full shadow-lg w-8 h-14 flex items-center justify-center cursor-pointer transform -translate-y-1/2"
-          aria-label="Expand Publications Panel"
-          title="Show Publications"
+        {/* Right arrow tab */}
+        {!showSummary && (
+          <button
+            onClick={toggleSummary}
+            className="fixed top-1/2 right-0 z-40 bg-violet-600 hover:bg-violet-700 text-white font-bold rounded-l-full shadow-lg w-8 h-14 flex items-center justify-center cursor-pointer transform -translate-y-1/2"
+            aria-label="Expand Summary Panel"
+            title="Show Summary"
+          >
+            <span className="block w-4 h-4 border-t-2 border-l-2 border-white transform -rotate-45" />
+          </button>
+        )}
+
+        {/* Publications Panel */}
+        <aside
+          className={`fixed top-20 bottom-20 left-6 z-30 flex flex-col overflow-y-auto transition-all duration-300 ${
+            showPublications
+              ? "w-100 p-5"
+              : "w-0 p-0 bg-transparent border-0 shadow-none"
+          } ${showPublications ? panelBaseClasses : ""}`}
+          style={{ overflow: showPublications ? "auto" : "hidden" }}
         >
-          <span className="block w-4 h-4 border-t-2 border-r-2 border-white transform rotate-45" />
-        </button>
-      )}
+          {showPublications && (
+            <>
+              <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
+                Publications ({fetchedPublications.length})
+              </h2>
+              {loading && (
+                <p className="text-gray-400">Loading publications...</p>
+              )}
+              {!loading &&
+                fetchedPublications.length === 0 &&
+                searchQuery.trim() && (
+                  <p className="text-gray-400">
+                    No publications found for the query.
+                  </p>
+                )}
+              {!loading &&
+                fetchedPublications.length === 0 &&
+                !searchQuery.trim() && (
+                  <p className="text-gray-400">
+                    Enter a search query to find related publications.
+                  </p>
+                )}
+              <ul className="space-y-3 flex-grow overflow-y-auto">
+                {fetchedPublications.map((pub, index) => (
+                  <li
+                    key={pub.id || index}
+                    className={`p-2 rounded cursor-pointer transition-colors ${
+                      selectedPublication && selectedPublication.id === pub.id
+                        ? "bg-violet-700/60 border border-violet-500"
+                        : "hover:bg-violet-800/40"
+                    }`}
+                  >
+                    <a
+                      href={pub.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block text-gray-300 hover:text-violet-300 cursor-pointer"
+                    >
+                      {pub.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+              <button
+                onClick={togglePublications}
+                className="mt-4 bg-violet-500 hover:bg-violet-400 text-white font-bold py-2 px-4 rounded"
+              >
+                Close
+              </button>
+            </>
+          )}
+        </aside>
 
-      {/* Right arrow tab */}
-      {!showSummary && (
-        <button
-          onClick={toggleSummary}
-          className="fixed top-1/2 right-0 z-40 bg-violet-600 hover:bg-violet-700 text-white font-bold rounded-l-full shadow-lg w-8 h-14 flex items-center justify-center cursor-pointer transform -translate-y-1/2"
-          aria-label="Expand Summary Panel"
-          title="Show Summary"
+        {/* Summary Panel */}
+
+        <aside
+          className={`fixed top-20 bottom-20 right-6 z-30 flex flex-col overflow-y-auto transition-all duration-300 ${
+            showSummary
+              ? "w-100 p-5"
+              : "w-0 p-0 bg-transparent border-0 shadow-none"
+          } ${showSummary ? panelBaseClasses : ""}`}
+          style={{ overflow: showSummary ? "auto" : "hidden" }}
         >
           <span className="block w-4 h-4 border-t-2 border-l-2 border-white transform -rotate-45" />
         </button>

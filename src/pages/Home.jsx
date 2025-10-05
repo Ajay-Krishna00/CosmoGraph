@@ -1,12 +1,18 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
-import axios from 'axios';
+import axios from "axios";
 
 function Home() {
   const navigate = useNavigate();
   const [search, setSearch] = useState("");
 
-  const commonTerms = ["Mars", "Microgravity", "Plants", "Microbes", "Plant growth"];
+  const commonTerms = [
+    "Mars",
+    "Microgravity",
+    "Plants",
+    "Microbes",
+    "Plant growth",
+  ];
 
   const openPageResults = () => {
     /*accessDB();*/
@@ -27,14 +33,9 @@ function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-violet-900/80 via-violet-800/60 to-black/90 flex flex-col items-center justify-center p-6">
-      
       {/* Logo + App Name */}
       <div className="flex flex-col items-center mb-12">
-        <img
-          src="/logo.png"
-          alt="Logo"
-          className="w-20 h-20 mb-4"
-        />
+        <img src="/logo.png" alt="Logo" className="w-20 h-20 mb-4" />
         <h1 className="text-5xl font-extrabold text-violet-400 mb-1 tracking-wide">
           CosmoGraph
         </h1>
@@ -54,10 +55,10 @@ function Home() {
           className="flex-grow p-4 bg-violet-900/50 text-white placeholder-violet-300 focus:outline-none focus:ring-2 focus:ring-violet-500"
         />
         <button
-            onClick={openPageResults}
-            className="bg-violet-400 text-white px-6 font-semibold rounded-r-lg transition-colors hover:bg-violet-500"
+          onClick={openPageResults}
+          className="bg-violet-400 text-white px-6 font-semibold rounded-r-lg transition-colors hover:bg-violet-500"
         >
-        Search
+          Search
         </button>
       </div>
 
