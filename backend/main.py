@@ -7,7 +7,7 @@ from supabase import create_client, Client
 import os
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
-
+from mains2 import run_rag_pipeline
 load_dotenv()
 
 app = FastAPI()
@@ -143,6 +143,18 @@ def generate_knowledge_graph(query: SearchQuery):
     
     except Exception as e:
         print(f"Error in generate_knowledge_graph: {e}") 
+        raise HTTPException(status_code=500, detail=str(e))
+    
+class QueryRequest(BaseModel):
+    query: str
+    top_k: int = 10
+
+@app.post("/summarize")
+def summarize_query(request: QueryRequest):
+    try:
+        result = run_rag_pipeline(request.query, top_k=request.top_k)
+        return result
+    except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
 
