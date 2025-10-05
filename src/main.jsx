@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Results from "./pages/Results";
@@ -14,9 +14,9 @@ const root = document.getElementById("root");
 ReactDOM.createRoot(root).render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/paper" element={<Paper/>}/>
-      <Route path="/results" element={<Results/>}/>
+      <Route path="/" element={<Home />} />
+      <Route path="/paper" element={<Paper />} />
+      <Route path="/results" element={<Results />} />
     </Routes>
-  </BrowserRouter>
+  </BrowserRouter>,
 );
