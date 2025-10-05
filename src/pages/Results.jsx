@@ -83,7 +83,7 @@ function Results() {
         })
       });
       const summaryData = await summ.json();
-      setSummary(summaryData);
+      setSummary(summaryData.replace("*","\n"));
 
       setGraphData({ nodes, links });
 
