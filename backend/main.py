@@ -47,8 +47,7 @@ class PublicationItem(BaseModel):
     id: str # Assuming an ID field exists
     title: str # Assuming a title field exists
     tags: List[str] # Assuming a tags field exists
-    # Add other fields you want to display, e.g., summary, authors, etc.
-    # similarity: float # If you want to include the similarity score
+    url: str 
 
 class GraphResponse(BaseModel):
     nodes: List[GraphNode]
@@ -85,7 +84,7 @@ def generate_knowledge_graph(query: SearchQuery):
         publications_data = response.data
         
         if not publications_data:
-            return {"nodes": [], "links": [],"publications": []}
+            return {"nodes": [], "links": [],"publications": [], "url":[]}
         
         # Step 3: Extract all tags from retrieved publications
         publication_list=[]
@@ -96,7 +95,8 @@ def generate_knowledge_graph(query: SearchQuery):
             publication_list.append({
                 "id": pub.get("id"),
                 "title": pub.get("title", "No Title Available"),
-                "tags": pub.get("tags", [])
+                "tags": pub.get("tags", []),
+                "url": pub.get("pdf_url", "") 
                 # Add similarity if the RPC returns it
                 # "similarity": pub.get("similarity_score")
             })
