@@ -110,4 +110,4 @@ def run_rag_pipeline(query: str, top_k: int = 10):
     combined_text = "\n".join([r["content"] for r in results if r["content"]])
     summary = gemini.generate_Summary(combined_text, query)
 
-    return summary;
+    return summary
