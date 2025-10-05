@@ -7,6 +7,7 @@ supabase
 python-dotenv            # optional, for loading .env
 tqdm
 transformers             # installed automatically by sentence-transformers but safe to include
+google-generativeai  
 
 annotated-types==0.7.0
 anyio==4.11.0
