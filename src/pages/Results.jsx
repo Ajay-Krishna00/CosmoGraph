@@ -244,71 +244,7 @@ function Results() {
           )}
         </aside>
 
-        {/* Summary Panel */}
-
-        <aside
-          className={`fixed top-20 bottom-20 right-6 z-30 flex flex-col overflow-y-auto transition-all duration-300 ${
-            showSummary
-              ? "w-100 p-5"
-              : "w-0 p-0 bg-transparent border-0 shadow-none"
-          } ${showSummary ? panelBaseClasses : ""}`}
-          style={{ overflow: showSummary ? "auto" : "hidden" }}
-        >
-          <span className="block w-4 h-4 border-t-2 border-l-2 border-white transform -rotate-45" />
-        </button>
-      )}
-
-      {/* Publications Panel */}
-      <aside
-        className={`fixed top-20 bottom-20 left-6 z-30 flex flex-col overflow-y-auto transition-all duration-300 ${
-          showPublications
-            ? "w-100 p-5"
-            : "w-0 p-0 bg-transparent border-0 shadow-none"
-        } ${showPublications ? panelBaseClasses : ""}`}
-        style={{ overflow: showPublications ? "auto" : "hidden" }}
-      >
-        {showPublications && (
-          <>
-            <h2 className="text-lg font-semibold text-violet-300 mb-4 border-b border-violet-700/30 pb-2">
-              Publications ({fetchedPublications.length})
-            </h2>
-            {loading && <p className="text-gray-400">Loading publications...</p>}
-            {!loading && fetchedPublications.length === 0 && searchQuery.trim() && (
-                <p className="text-gray-400">No publications found for the query.</p>
-            )}
-            {!loading && fetchedPublications.length === 0 && !searchQuery.trim() && (
-                <p className="text-gray-400">Enter a search query to find related publications.</p>
-            )}
-            <ul className="space-y-3 flex-grow overflow-y-auto">
-              {fetchedPublications.map((pub, index) => (
-                <li 
-                  key={pub.id || index}
-                  className={`p-2 rounded cursor-pointer transition-colors ${
-                      selectedPublication && selectedPublication.id === pub.id 
-                          ? 'bg-violet-700/60 border border-violet-500' 
-                          : 'hover:bg-violet-800/40'
-                  }`}
-                >
-                <a
-                  href={pub.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block text-gray-300 hover:text-violet-300 cursor-pointer"
-                >
-                  {pub.title}
-                </a>
-                </li>
-              ))}
-            </ul>
-            <button
-              onClick={togglePublications}
-              className="mt-4 bg-violet-500 hover:bg-violet-400 text-white font-bold py-2 px-4 rounded"
-            >
-              Close
-            </button>
-          </>
-        )}
-      </aside>
+      {/* Summary Panel */}
 
       {/* Summary Panel */}
       <aside
