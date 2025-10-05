@@ -139,7 +139,11 @@ function Results() {
     <div>
       {/* Floating Search Bar Overlay */}
       <div className="fixed top-0 left-0 w-full z-50 p-4 flex justify-center">
-        <div className="max-w-3xl w-full flex items-center rounded-full overflow-hidden shadow-lg border border-violet-700/40">
+      <div className="max-w-3xl w-full flex items-center gap-4">
+        <a href="/" className="flex-shrink-0">
+          <img src="/logo.png" alt="Logo" className="w-10 h-10 cursor-pointer hover:opacity-80 transition-opacity" />
+        </a>
+        <div className="flex-grow flex items-center rounded-full overflow-hidden shadow-lg border border-violet-700/40">
           <input
             type="text"
             value={searchQuery}
@@ -156,6 +160,7 @@ function Results() {
           </button>
         </div>
       </div>
+    </div>
 
       <div className="min-h-screen bg-gradient-to-br from-[#0f021f] via-[#1a0533] to-[#26084a] text-gray-100 flex flex-col relative">
         {/* Left arrow tab */}
