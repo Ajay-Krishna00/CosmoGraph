@@ -3,7 +3,8 @@ import { useNavigate, useLocation } from "react-router";
 import { Search } from "lucide-react";
 
 import ForceGraph2D from "react-force-graph-2d";
-const API_URL = "http://localhost:8000";
+// const API_URL = "http://localhost:8080";
+const API_URL = "https://cosmograph-fastapi-backend-647282632953.asia-south1.run.app";
 
 function Results() {
   const [search, setSearch] = useState("");
